@@ -4,7 +4,6 @@ Documentation       Order robots from RobotSpareBin Industries Inc
 Library    RPA.Browser.Selenium
 Library    RPA.HTTP
 Library    RPA.Tables
-Library    Collections
 Library    RPA.PDF
 Library    RPA.Archive
 Library    OperatingSystem
@@ -24,7 +23,7 @@ Order robots from RobotSpareBin Industries Inc
 
 *** Keywords ***
 Open robot order website
-    Open Available Browser  url=https://robotsparebinindustries.com/#/robot-order  browser_selection=firefox
+    Open Available Browser  url=https://robotsparebinindustries.com/#/robot-order
 
 Accept popup
     Click Element  //button[contains(text(), 'OK')]
